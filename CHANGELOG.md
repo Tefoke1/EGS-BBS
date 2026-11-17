@@ -1,3 +1,7 @@
+## 0.7.0-beta.1 — 2026-11-17
+
+Native EPB export and personal library; million-block capacity and lower large-city memory; cinematic photo/PNG mode; MP4 camera paths, orbit and shot sequence; visible project loading; flight wheel speed; library refresh and material/forcefield fixes. New bilingual illustrated documentation and transparent security notes. Experimental beta: see README for measured limits.
+
 # Changelog
 
 ## 0.6.0-beta.2 · 2026-11-16

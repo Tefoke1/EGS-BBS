@@ -1,9 +1,20 @@
 <p align="center"><img src="assets/brand.svg" width="80" alt="EGS-BBS"></p>
 <h1 align="center">EGS-BBS</h1>
 <p align="center">Empyrion Galactic Survival: Build &amp; Blueprint Ships</p>
-<p align="center">Windows x64 · Empyrion + Reforged Eden 2 · RU / EN</p>
-
-[Русский](README.ru.md) · [Download](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1) · [Release notes](CHANGELOG.md) · [How it works](docs/TRUST.md) · [Licenses](docs/DEPENDENCIES.md)
+<p align="center">
+  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1"><img src="assets/navigation/app.svg" height="44" alt="EGS-BBS 0.7.0-beta.1"></a>
+  <a href="https://store.steampowered.com/news/app/383120"><img src="assets/navigation/game.svg" height="44" alt="Empyrion 1.20.1 · 5232"></a>
+  <a href="CHANGELOG.md"><img src="assets/navigation/active-en.svg" height="44" alt="Active development"></a>
+</p>
+<p align="center">Game version: <b>1.20.1, build 5232</b> · Reforged Eden 2<br>Windows x64 · Maintained and actively developed</p>
+<p align="center">
+  <a href="README.ru.md"><img src="assets/navigation/language-en.svg" height="44" alt="Русский"></a>
+  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1"><img src="assets/navigation/download-en.svg" height="44" alt="Download"></a>
+  <a href="CHANGELOG.md"><img src="assets/navigation/notes-en.svg" height="44" alt="What’s new"></a>
+  <a href="docs/TRUST.md"><img src="assets/navigation/architecture-en.svg" height="44" alt="How it works"></a>
+  <a href="docs/DEPENDENCIES.md"><img src="assets/navigation/licenses-en.svg" height="44" alt="Licenses"></a>
+</p>
+<p align="center"><sub>Game version verified on 17 November 2026. Starting with 0.7.0, each release lists its game version.</sub></p>
 
 **Turn a game blueprint into a clear construction plan.**
 

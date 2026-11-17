@@ -109,6 +109,6 @@ Ready-to-run builds are available in [Releases](https://github.com/Tefoke1/EGS-B
 
 EGS-BBS is a community project for Empyrion players. It runs locally and uses resources from your installed game. Game models and textures belong to Eleon Game Studios and their respective creators and are not bundled with the application.
 
-Thanks to the creators of the featured ships: MisterCrow for Thanatos and the Workshop creator of [YAMATO Real Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1320029358).
+Thanks to the creators of the featured ships: MisterCrow for ["Thanatos" Assault Vessel](https://steamcommunity.com/sharedfiles/filedetails/?id=1090967294) and the Workshop creator of [YAMATO Real Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1320029358).
 
 [How the application works](docs/TRUST.md) · [Libraries and licenses](docs/DEPENDENCIES.md) · [Report an issue](https://github.com/Tefoke1/EGS-BBS/issues)

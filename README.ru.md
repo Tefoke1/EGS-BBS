@@ -109,6 +109,6 @@ EGS-BBS помогает разбирать корабли по слоям, пл
 
 EGS-BBS — пользовательский проект для сообщества Empyrion. Приложение работает локально и использует ресурсы вашей установленной игры. Игровые модели и текстуры принадлежат Eleon Game Studios и авторам соответствующего контента; в дистрибутив они не входят.
 
-Спасибо авторам кораблей, показанных на снимках: MisterCrow — Thanatos; [YAMATO Real Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1320029358) — автору работы в Workshop.
+Спасибо авторам кораблей, показанных на снимках: MisterCrow — [«Thanatos» Assault Vessel](https://steamcommunity.com/sharedfiles/filedetails/?id=1090967294); [YAMATO Real Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1320029358) — автору работы в Workshop.
 
 [Устройство приложения](docs/TRUST.md) · [Библиотеки и лицензии](docs/DEPENDENCIES.md) · [Сообщить о проблеме](https://github.com/Tefoke1/EGS-BBS/issues)

@@ -115,7 +115,7 @@ If you enjoy EGS-BBS and would like to help it grow, you can support my work on 
 
 ## Authors and credits
 
-The app uses assets from your locally installed game. Models and textures belong to Eleon Game Studios and their respective creators; they are not included in the distribution.
+The app uses assets from your locally installed game. Models and textures belong to [Eleon Game Studios](http://www.eleon-studios.com) and their respective creators; they are not included in the distribution.
 
 The images above demonstrate the application using works by:
 

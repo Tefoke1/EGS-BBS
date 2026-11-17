@@ -13,6 +13,7 @@
   <a href="CHANGELOG.md"><img src="assets/navigation/notes-en.svg" height="44" alt="What’s new"></a>
   <a href="docs/TRUST.md"><img src="assets/navigation/architecture-en.svg" height="44" alt="How it works"></a>
   <a href="docs/DEPENDENCIES.md"><img src="assets/navigation/licenses-en.svg" height="44" alt="Licenses"></a>
+  <a href="#system-requirements"><img src="assets/navigation/hardware-en.svg" height="44" alt="PC requirements"></a>
 </p>
 <p align="center"><sub>Game version verified on 17 November 2026. Starting with 0.7.0, each release lists its game version.</sub></p>
 
@@ -21,6 +22,21 @@
 EGS-BBS helps you inspect ships layer by layer, plan block and device placement, and prepare your own blueprints for Empyrion Galactic Survival and Reforged Eden 2. Open a ship from the game or Workshop, understand its structure, make changes and export an EPB game file.
 
 ![The real EGS-BBS editor with Thanatos](assets/showcase-full.png)
+
+## System requirements
+
+**Recommended PC configuration.** Allow 16 GB RAM for ordinary ships or 32 GB for large projects. Minimum hardware has not been separately benchmarked.
+
+| Component | Recommendation |
+|---|---|
+| OS | Windows 11 x64 (tested); no macOS/Linux package |
+| RAM | 16 GB for ordinary ships; 32 GB for very large projects and other open applications |
+| GPU | Hardware WebGL 2; dedicated GPU with 8 GB VRAM recommended for large ships/photo mode. Tested: AMD Radeon RX 5700 XT |
+| CPU | Modern multicore x64 processor; test PC: AMD Ryzen 7 5700X3D (8 cores / 16 threads) |
+| Storage | SSD with several GB free for the app and model cache, plus space for the game and blueprints |
+| Required content | Your own Empyrion installation; downloaded Reforged Eden 2 for RE2 blocks |
+
+Test PC: Ryzen 7 5700X3D, Radeon RX 5700 XT, 32 GB RAM. GALAXIAN CITY (609,206 roots): 3.420 GiB settled / 3.857 GiB peak summed private process memory, original model/texture detail retained. Peak equals 4.141 decimal GB. Workload and hardware matter; the 1,000,000-root capacity is not a promise of 60 FPS or a fixed memory ceiling.
 
 ## Explore blueprints layer by layer
 
@@ -82,20 +98,6 @@ Manual filming records camera movement first, then renders MP4 at fixed timestam
 5. Open a ship from **Library**, edit it and use **To game**. Follow the in-app Factory / Workshop checklist. Steam publishing is performed in the game, not silently by this tool.
 
 Back up projects as `.ship.json` before updating. Local data is stored in `%APPDATA%/EGS-BBS`. Install updates into a new extracted folder. Original Workshop blueprints are preserved; game export creates a new personal blueprint folder.
-
-## Hardware
-
-These are practical recommendations, **not benchmark-validated minimum requirements**.
-
-| Component | Recommendation |
-|---|---|
-| OS | Windows 11 x64 (tested); no macOS/Linux package |
-| RAM | 16 GB for ordinary ships; 32 GB for very large projects and other open applications |
-| GPU | Hardware WebGL 2; dedicated GPU with 8 GB VRAM recommended for large ships/photo mode |
-| CPU / storage | Modern multicore CPU; SSD with several GB free for the app and generated asset cache |
-| Required content | Your own Empyrion installation; downloaded Reforged Eden 2 for RE2 blocks |
-
-Test PC: Ryzen 7 5700X3D, Radeon RX 5700 XT, 32 GB RAM. GALAXIAN CITY (609,206 roots): 3.420 GiB settled / 3.857 GiB peak summed private process memory, original model/texture detail retained. Peak equals 4.141 decimal GB. Workload and hardware matter; the 1,000,000-root capacity is not a promise of 60 FPS or a fixed memory ceiling.
 
 ## Controls
 

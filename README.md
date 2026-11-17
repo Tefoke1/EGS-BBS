@@ -3,23 +3,42 @@
 <p align="center">Empyrion Galactic Survival: Build &amp; Blueprint Ships</p>
 <p align="center">Windows x64 · Empyrion + Reforged Eden 2 · RU / EN</p>
 
-[Русский](README.ru.md) · [Download](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1) · [Release notes](CHANGELOG.md) · [Architecture & trust](docs/TRUST.md) · [Licenses](docs/DEPENDENCIES.md)
+[Русский](README.ru.md) · [Download](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1) · [Release notes](CHANGELOG.md) · [How it works](docs/TRUST.md) · [Licenses](docs/DEPENDENCIES.md)
 
-**Open a ship. Understand its structure. Make it yours.**
+**Turn a game blueprint into a clear construction plan.**
 
-A local 3D blueprint editor using models, textures and colors from your installed game. Inspect Workshop subscriptions and your own blueprints, edit individual parts, look inside the hull and export a blueprint back to Empyrion.
+EGS-BBS helps you inspect ships layer by layer, plan block and device placement, and prepare your own blueprints for Empyrion Galactic Survival and Reforged Eden 2. Open a ship from the game or Workshop, understand its structure, make changes and export an EPB game file.
 
 ![The real EGS-BBS editor with Thanatos](assets/showcase-full.png)
 
-## See inside your ship
+## Explore blueprints layer by layer
 
-Choose an axis and move the layer range. This hides blocks for inspection; it does not delete them. The GIF cycles between the complete ship and two half-sections.
+Reveal the interior, device placement and connections between parts. Select a range or isolate a single layer to understand an existing ship and plan your own.
 
-![Full ship → X half-section → full ship → Z half-section](assets/sections.gif)
+### X · across the hull
 
-| Half-section along X | Half-section along Z |
-|---|---|
-| ![X section](assets/showcase-section-x.png) | ![Z section](assets/showcase-section-z.png) |
+![Layer inspection along X](assets/layers-x.gif)
+
+### Y · deck by deck
+
+![Layer inspection along Y](assets/layers-y.gif)
+
+### Z · along the ship
+
+![Layer inspection along Z](assets/layers-z.gif)
+
+## Plan your construction
+
+Compare hull materials, adjust shapes and rotations, place devices and review the component list. Layer views guide manual construction; the timeline shows individual blocks being added from bottom to top. Save a `.ship.json` project to continue later.
+
+## From the game to the editor — and back
+
+1. **Import EPB.** Open a personal blueprint or a downloaded Workshop ship from the library.
+2. **Inspect and edit.** Work with layers, device filters, paint and material selection.
+3. **Export to the game.** **To game** saves a new `.epb` into your personal Empyrion library and shows the next steps.
+4. **Use the Factory.** Open blueprints in Empyrion, select the saved ship, send it to the Factory and supply the required resources. When production finishes, place the ship according to your game mode or server rules.
+
+The application's resource list helps you prepare; the in-game Factory shows the final requirements for your installation.
 
 ## What you can do
 
@@ -35,7 +54,7 @@ Choose an axis and move the layer range. This hides blocks for inspection; it do
 
 ![Actual YAMATO render exported by EGS-BBS](assets/photo-yamato.png)
 
-Original paint and decals stay on the ship. Adjust light, exposure, shadow fill and material wear. Cinematic processing includes HDR, reflections and accumulated antialiasing; it is **not ray-traced global illumination**, and does not remove the block silhouette.
+Save a PNG of your ship or record an MP4 flyaround. Adjust light, exposure and materials; choose a manual camera or automatic angles. Cinematic mode continues to evolve with the application.
 
 ![Filming settings with camera modes and frame controls](assets/filming.png)
 
@@ -82,19 +101,14 @@ Test PC: Ryzen 7 5700X3D, Radeon RX 5700 XT, 32 GB RAM. GALAXIAN CITY (609,206 r
 
 Right-click opens block/material options, or the palette when painting.
 
-## Before you run an unsigned application
+## Downloads and updates
 
-The EXE is **not Authenticode-signed**. Development sources are private; this repository is for binaries, documentation and release evidence. No badge or antivirus result can prove the absence of malicious code.
+Ready-to-run builds are available in [Releases](https://github.com/Tefoke1/EGS-BBS/releases), alongside `SHA256SUMS.txt` and `SECURITY-REPORT.md` with verification results. The current beta is distributed without a digital signature.
 
-- Download only from this repository's Releases; compare the archive with `SHA256SUMS.txt`.
-- Read [architecture, data flows and security limits](docs/TRUST.md).
-- Read the release's `SECURITY-REPORT.md` for the actual scan status, timestamp, hashes and VirusTotal links. A hash lookup with no report is **not** a clean scan.
-- Do not disable antivirus or SmartScreen. Investigate warnings rather than assuming every detection is a false positive.
+## About the project
 
-## Known limits and ownership
+EGS-BBS is a community project for Empyrion players. It runs locally and uses resources from your installed game. Game models and textures belong to Eleon Game Studios and their respective creators and are not bundled with the application.
 
-Factory resource totals can be incomplete for obsolete/modded blocks. Flight, airtightness and actual Factory spawning still require in-game checks; native EPB reading was validated on four exported ships. Some special shaders and six city trapdoor models are not reproduced. Photo realism is still being refined. Browser hosts can prohibit mouse capture; use the desktop app for flight.
+Thanks to the creators of the featured ships: MisterCrow for Thanatos and the Workshop creator of [YAMATO Real Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1320029358).
 
-This is an unofficial tool, not endorsed by Eleon Game Studios, Steam or RE2 authors. No game models, textures, Workshop blueprints or game keys are bundled. Resources are imported locally from the user's installation. This design does **not** constitute legal clearance or a blanket guarantee of copyright compliance. Follow the [game terms](https://store.steampowered.com/eula/383120_eula_1) and [Eleon video policy](https://empyriongame.com/video-policy/); do not redistribute extracted assets.
-
-Screenshots demonstrate the application, not bundled content. Thanatos by MisterCrow and [YAMATO Real Size](https://steamcommunity.com/sharedfiles/filedetails/?id=1320029358) belong to their respective creators. No generated concept art is presented as an application screenshot.
+[How the application works](docs/TRUST.md) · [Libraries and licenses](docs/DEPENDENCIES.md) · [Report an issue](https://github.com/Tefoke1/EGS-BBS/issues)

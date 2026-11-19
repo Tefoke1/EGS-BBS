@@ -12,6 +12,7 @@ The application is not offered under an open-source license. Development sources
 | dnfile | 0.18.0 | Read .NET metadata | MIT |
 | dncil | 1.0.2 | Read CIL | Apache-2.0 |
 | cryptography | 50.0.2 | Local game format compatibility | Apache-2.0 OR BSD-3-Clause |
+| Brotli | 1.2.1 | Lossless texture cache and transfer | MIT |
 | Pillow | 13.0.0 | Image conversion | MIT-CMU |
 
 Mediabunny is bundled from unmodified published source: [version 1.66.0](https://www.npmjs.com/package/mediabunny/v/1.66.0), [upstream](https://github.com/Vanilagy/mediabunny). The bundle, full MPL license and source notice are in resources/app/dist/vendor. Python distribution metadata includes dependency license texts; Electron's LICENSE and LICENSES.chromium.html are retained. The release includes a machine-readable dependency inventory and a collected LICENSES directory. Build-only tools such as esbuild and Electron Packager are not the application runtime.

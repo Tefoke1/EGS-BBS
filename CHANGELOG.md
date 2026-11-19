@@ -1,10 +1,21 @@
+# Changelog
+
+## 0.7.0-beta.10 · 2026-11-19
+
+Empyrion Galactic Survival **1.20.1 (build 5232)** · Reforged Eden 2.
+
+- Models and photo materials took 25.85 and 30.92 seconds to prepare in two empty-cache runs. Beta.9 logged 71.96 seconds on the same PC. Lossless storage reduced the native texture cache from 3.75 to 1.25 GB.
+- First launch opens with language selection, then finds Steam libraries. Welcome includes a performance check for all three rendering modes.
+- Large projects show loading progress and can be cancelled before the scene changes. Fixed Mantar Dreadnought and Stargate SGU Destiny imports and the incorrect 256-cell export limit.
+- Open and save projects in the native EPB format. Saving to the game creates a personal blueprint with a ship portrait. A companion JPG is available for local saves.
+- Updated base-game and RE2 catalogs, xeno steel selection and core-based placement. Device groups, transmitters, receivers and 13 circuit types persist in the blueprint.
+- The dedicated MP4 workspace combines X/Y/Z layer animation with manual, orbit and cinematic camera paths.
+
 ## 0.7.0-beta.1 — 2026-11-17
 
 **Game version:** Empyrion Galactic Survival **1.20.1 (build 5232)** · Reforged Eden 2.
 
 Native EPB export and personal library; million-block capacity and lower large-city memory; cinematic photo/PNG mode; MP4 camera paths, orbit and shot sequence; visible project loading; flight wheel speed; library refresh and material/forcefield fixes. New bilingual illustrated documentation and transparent security notes. Experimental beta: see README for measured limits.
-
-# Changelog
 
 ## 0.6.0-beta.2 · 2026-11-16
 

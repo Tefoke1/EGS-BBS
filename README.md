@@ -2,13 +2,13 @@
 <h1 align="center">EGS-BBS</h1>
 <p align="center">Empyrion Galactic Survival: Build &amp; Blueprint Ships</p>
 <p align="center">
-  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1"><img src="assets/navigation/app.svg" height="44" alt="EGS-BBS 0.7.0-beta.1"></a>
+  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.10"><img src="assets/navigation/app.svg" height="44" alt="EGS-BBS 0.7.0-beta.10"></a>
   <a href="https://store.steampowered.com/news/app/383120"><img src="assets/navigation/game.svg" height="44" alt="Empyrion 1.20.1 · 5232"></a>
   <a href="CHANGELOG.md"><img src="assets/navigation/active-en.svg" height="44" alt="Active development"></a>
 </p>
 <p align="center">
   <a href="README.ru.md"><img src="assets/navigation/language-en.svg" height="44" alt="Русский"></a>
-  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.1"><img src="assets/navigation/download-en.svg" height="44" alt="Download"></a>
+  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.10"><img src="assets/navigation/download-en.svg" height="44" alt="Download"></a>
   <a href="CHANGELOG.md"><img src="assets/navigation/notes-en.svg" height="44" alt="What’s new"></a>
   <a href="docs/TRUST.md"><img src="assets/navigation/architecture-en.svg" height="44" alt="How it works"></a>
   <a href="docs/DEPENDENCIES.md"><img src="assets/navigation/licenses-en.svg" height="44" alt="Licenses"></a>
@@ -50,21 +50,24 @@ Toggle the hull, weapons and thrusters independently. Move the camera closer to 
 - Game-derived shapes, materials, paint and decals.
 - Selection, copying, 90° rotation, symmetry, undo and redo.
 - Component list, mass, power, CPU and estimated Factory resources.
-- Bottom-to-top construction timeline, one block at a time.
-- Projects up to 1,000,000 blocks; save your work as `.ship.json`.
-- Fast, realistic and experimental cinematic rendering.
+- Projects up to 1,000,000 blocks, with progress and cancellation when opening large blueprints.
+- Fast, realistic and cinematic rendering.
+
+## Devices and signals
+
+Select a lamp or door in a device group and open **Signal Logic**. Choose its function, click **Pick transmitter…**, then select a lever or sensor. For more complex connections, use control-panel switches and 13 types of logic circuits.
 
 ## From blueprint to game
 
-1. Open a personal blueprint or Workshop subscription from **Library** and edit it.
-2. Click **To game** to save a new `.epb` into your personal Empyrion blueprint folder.
-3. In the game, send the blueprint to the Factory, supply the required resources and place the ship once production finishes.
+1. Open a personal `.epb` or a Workshop subscription from **Library**. Workshop edits use a copy.
+2. Use **Save project** to choose a local folder, or **To game** to add the blueprint to your personal Empyrion library with a bow-quarter portrait.
+3. In your world, open the **F2 blueprint library**, select the ship and add it to the Factory. Supply the required resources, start production and place the finished ship.
 
-The game determines final resource costs and construction limits. Workshop publishing instructions are available in the export window.
+The editor estimates the resources. The game shows the final requirements. The export window also includes the steps for publishing to the Workshop.
 
 ## Photo and video
 
-Adjust lighting and exposure, export PNG up to 4K or record MP4. Choose a smooth manual camera, an orbit or a sequence of angles.
+Adjust lighting and exposure, and export PNG up to 4K. The dedicated MP4 workspace combines smooth manual flight, orbits or a sequence of shots with construction reveals along X, Y or Z.
 
 ![YAMATO Real Size: PNG exported by EGS-BBS](assets/photo-yamato.png)
 
@@ -77,11 +80,12 @@ Adjust lighting and exposure, export PNG up to 4K or record MP4. Choose a smooth
 
 ## Setup and updates
 
-1. Get the ZIP using **Download** above and extract it in full.
-2. Run `EGS-BBS.exe`; no separate Python or Node.js installation is needed.
-3. Select your Steam / SteamLibrary folder and wait for game assets to import. Later launches reuse the cache.
+1. Get the ZIP using **Download**, extract it in full and run **EGS-BBS.exe**.
+2. Choose your language. The app locates the game and Workshop through Steam. If detection fails, choose the folder in File Explorer.
+3. Let the app prepare the models. Two empty-cache runs on the test PC took **26 and 31 seconds**, including photo-mode materials. Subsequent launches reuse the cache.
+4. In Welcome, start a project, open a library blueprint or run the optional 30-second PC check to estimate project sizes at 30 FPS.
 
-Before updating, save your projects as `.ship.json` and extract the new version into a separate folder. App data is stored in `%APPDATA%/EGS-BBS`.
+For an update, close the previous version and extract the new one to a separate folder. When upgrading from beta.1, save important designs as `.epb` using **To game** first.
 
 The release includes `SHA256SUMS.txt` and `SECURITY-REPORT.md`. The current beta is unsigned.
 

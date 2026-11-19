@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="594" viewBox="0 0 1040 594" role="img">
 <title>EGS-BBS development roadmap</title>
-<desc>Performance calculator: Forward, reverse and upward thrust; G-force with a fully loaded ship.; Airtightness and balance: Hull airtightness checks and a centre-of-mass display.; Building tools: Better block placement, positioning and rotation controls.; AI ship builder: Improve ship generation from text descriptions.; Signals and logic: Full tools for creating and managing signals and logic circuits.; System performance: Reduce system load and optimise large projects.; Video recording: Improve the existing filming and export tools.; Community feedback: Fix bugs and errors reported by the community.</desc>
+<desc>Performance calculator: Forward, reverse and upward thrust; G-force with a fully loaded ship.; Airtightness and balance: Hull airtightness checks and a centre-of-mass display.; Building tools: Better block placement, positioning and rotation controls.; AI ship builder: Improve ship generation from text descriptions.; Signals and logic: Verify device connections and circuit behavior in game.; System performance: Reduce system load and optimise large projects.; Video recording: Improve the existing filming and export tools.; Community feedback: Fix bugs and errors reported by the community.</desc>
 <rect width="1040" height="594" rx="16" fill="#11232e"/>
 <g transform="translate(18 18)"><rect width="493" height="126" rx="9" fill="#1c303d" stroke="#3a5362"/><path d="M1 25v76" stroke="#a6d2e4" stroke-width="3"/><g transform="translate(19 20)" stroke="#a6d2e4" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 23a12 12 0 1 1 24 0M16 20l7-9M7 23h18"/></g>
 <text x="67" y="37" fill="#f0f6f8" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600">Performance calculator</text>
@@ -24,8 +24,8 @@
 </g>
 <g transform="translate(18 306)"><rect width="493" height="126" rx="9" fill="#1c303d" stroke="#3a5362"/><path d="M1 25v76" stroke="#a6d2e4" stroke-width="3"/><g transform="translate(19 20)" stroke="#a6d2e4" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="8" height="8" rx="1"/><rect x="22" y="22" width="8" height="8" rx="1"/><path d="M10 7h16v15M6 11v15h16"/></g>
 <text x="67" y="37" fill="#f0f6f8" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600">Signals and logic</text>
-<text x="22" y="76" fill="#bfd0db" font-family="Segoe UI,Arial,sans-serif" font-size="18">Full tools for creating and managing</text>
-<text x="22" y="101" fill="#bfd0db" font-family="Segoe UI,Arial,sans-serif" font-size="18">signals and logic circuits.</text>
+<text x="22" y="76" fill="#bfd0db" font-family="Segoe UI,Arial,sans-serif" font-size="18">Verify device connections and</text>
+<text x="22" y="101" fill="#bfd0db" font-family="Segoe UI,Arial,sans-serif" font-size="18">circuit behavior in game.</text>
 </g>
 <g transform="translate(529 306)"><rect width="493" height="126" rx="9" fill="#1c303d" stroke="#3a5362"/><path d="M1 25v76" stroke="#c5e87b" stroke-width="3"/><g transform="translate(19 20)" stroke="#c5e87b" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="16" height="16" rx="2"/><path d="M12 3v5M20 3v5M12 24v5M20 24v5M3 12h5M3 20h5M24 12h5M24 20h5"/></g>
 <text x="67" y="37" fill="#f0f6f8" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="600">System performance</text>

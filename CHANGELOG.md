@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.7.0 · 2026-11-21
+
+Game version: Empyrion 1.20.1 (build 5232) · Reforged Eden 2
+
+- Inspect a blueprint, then press F to build in first person. Place rows, rotate multi-cell devices, work in symmetry and undo a whole row in one step.
+- Equip shapes across materials in twelve quick slots. Paint individual faces, sample colors and textures, and rotate a texture or decal under the brush.
+- Peel the outermost layers from the longest dimensions first. The inspector follows the part under the reticle.
+- Estimate takeoff and payload at a chosen gravity. Compare thrust in six directions, acceleration and handling alongside component and Factory resource thumbnails.
+- Trace a signal from its transmitter through logic to each receiver. Assign groups to eight switches and try the interactive two-sensor door tutorial.
+- Frame a 4K PNG or an MP4 in the Photo / video workspace. Combine camera movement with a layer reveal on X, Y or Z.
+
 ## 0.7.0-beta.10 · 2026-11-19
 
 Empyrion Galactic Survival **1.20.1 (build 5232)** · Reforged Eden 2.

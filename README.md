@@ -2,13 +2,13 @@
 <h1 align="center">EGS-BBS</h1>
 <p align="center">Empyrion Galactic Survival: Build &amp; Blueprint Ships</p>
 <p align="center">
-  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.10"><img src="assets/navigation/app.svg" height="44" alt="EGS-BBS 0.7.0-beta.10"></a>
+  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0"><img src="assets/navigation/app.svg" height="44" alt="EGS-BBS 0.7.0"></a>
   <a href="https://store.steampowered.com/news/app/383120"><img src="assets/navigation/game.svg" height="44" alt="Empyrion 1.20.1 · 5232"></a>
   <a href="CHANGELOG.md"><img src="assets/navigation/active-en.svg" height="44" alt="Active development"></a>
 </p>
 <p align="center">
   <a href="README.ru.md"><img src="assets/navigation/language-en.svg" height="44" alt="Русский"></a>
-  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0-beta.10"><img src="assets/navigation/download-en.svg" height="44" alt="Download"></a>
+  <a href="https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0"><img src="assets/navigation/download-en.svg" height="44" alt="Download"></a>
   <a href="CHANGELOG.md"><img src="assets/navigation/notes-en.svg" height="44" alt="What’s new"></a>
   <a href="docs/TRUST.md"><img src="assets/navigation/architecture-en.svg" height="44" alt="How it works"></a>
   <a href="docs/DEPENDENCIES.md"><img src="assets/navigation/licenses-en.svg" height="44" alt="Licenses"></a>
@@ -16,100 +16,102 @@
   <a href="#roadmap"><img src="assets/navigation/roadmap-en.svg" height="44" alt="Roadmap"></a>
 </p>
 
-EGS-BBS is a local blueprint editor for Empyrion and Reforged Eden 2: inspect layers, plan construction and edit ships from the game and Workshop.
+Open an Empyrion or Reforged Eden 2 blueprint, inspect its decks, rebuild it in first person and send your version to the in-game Factory. EGS-BBS runs locally on Windows.
 
-![EGS-BBS editor: Thanatos](assets/showcase-full.png)
+![EGS-BBS editor: Thanatos](assets/ship-070-en.webp)
+
+## Layer inspection
+
+Select a range along X, Y or Z, or isolate a single layer to examine rooms and device placement.
+
+Peel the most protruding layers from every side to expose the core. Large projects show loading progress and can be cancelled. The editor accepts up to 1,000,000 blocks.
+
+| X · across the hull | Y · deck by deck | Z · along the ship |
+|:---:|:---:|:---:|
+| ![X layers](assets/layers-x.gif) | ![Y layers](assets/layers-y.gif) | ![Z layers](assets/layers-z.gif) |
+
+### Devices up close
+
+Toggle the hull, weapons and thrusters independently. Move the camera closer to components or explore in free flight.
+
+![Toggling hull, weapons and thrusters while moving the camera closer](assets/components-camera.gif)
+
+## Build and paint in first person
+
+Press **F** to enter a ship and work where the blocks will go. In **Build and edit (B)**, place a row with one drag, rotate or move a device, and use X symmetry for a matching opposite side. The preview shows the textured part. One undo removes the whole row.
+
+In **Paint (V)**, right-click for the project palette. Sample the texture and color or the decal under the brush with the middle button. Paint shortcuts follow the material you aim at.
+
+<details>
+<summary>Builder controls</summary>
+
+| Action | Control |
+|---|---|
+| Enter or leave construction | F |
+| Fly / ascend / descend | WASD / Space / Ctrl |
+| Adjust flight speed | Mouse wheel |
+| Build and edit / paint | B / V |
+| Put away the part, then open the catalog | Right-click once per action |
+| Assign a quick slot | Hover a catalog part and press 1 through = |
+| Select rotation axis / rotate | Z / X |
+| Copy a block or sample paint | Middle mouse button |
+| Undo / expand viewport | Ctrl+Z / Tab |
+
+</details>
+
+## Will the ship lift off?
+
+Open **Ship statistics**, set gravity to **1 g** and add the expected cargo. Check upward thrust against loaded weight, then compare forward and braking acceleration. The panel includes thrust in all six directions and estimates of speed, pitch, yaw and roll. The game’s atmosphere and flight settings can change those estimates.
+
+Expand the component and Factory lists to see quantities with their game icons.
+
+![Thanatos component and thrust estimates](assets/stats-070-en.webp)
+
+## Devices and signal logic
+
+Select a device group, assign it to one of eight control-panel shortcuts, or follow a named signal to its receivers. Clicking a device or circuit on the connection map opens its settings. The editor supports 13 circuit types and flags missing sources on connected inputs.
+
+In the built-in guide, switch either of two sensors on to see the door open through an **OR** gate.
+
+```mermaid
+flowchart LR
+  A[Inside sensor] --> G{OR}
+  B[Outside sensor] --> G
+  G --> D[Door]
+```
+
+## From blueprint to Factory
+
+1. Open a personal `.epb` or a Steam Workshop blueprint from **Library**. Edits to a subscription use a copy.
+2. Choose **Save** to write a local `.epb` or add it to your personal game library with a ship portrait. A newly built ship needs a primary core for export.
+3. In your world, open **F2 → Blueprints**, select the ship and add it to the Factory. Supply the listed resources, start production and place the finished ship.
+
+## Photo and video
+
+Open **Photo / video** to set the light, exposure and framing for a PNG up to 4K. Record an MP4 with smooth manual flight, an orbit or a sequence of camera angles. A reveal along X, Y or Z can show a build taking shape deck by deck.
+
+![YAMATO Real Size photographed in EGS-BBS](assets/photo-yamato.png)
+
+## Setup and updates
+
+Extract the entire Windows x64 ZIP and run **EGS-BBS.exe**. Choose a language and connect the detected Steam library. If needed, browse to the game folder. The first launch prepares and caches the models. In Welcome, the optional 30-second test estimates the project size your PC can display at 30 FPS.
+
+To update, close the app and extract the new ZIP to a separate folder. Each release includes checksums and a report for the unsigned executable.
 
 ## System requirements
 
 | Component | Recommended |
 |---|---|
-| OS | Windows 11 x64 |
+| OS | Windows 10 or 11 x64. This release was tested on Windows 10 22H2. |
 | CPU | Multicore x64; tested with AMD Ryzen 7 5700X3D |
 | RAM | 16 GB for ordinary ships; 32 GB for large projects |
 | GPU | Hardware WebGL 2; 8 GB VRAM for large projects and photo mode. Tested with Radeon RX 5700 XT |
 | Storage | SSD with several GB free for the app and cache; additional space for the game and blueprints |
 | Game | Installed Empyrion; downloaded Reforged Eden 2 for its blocks |
 
-## Layer inspection
-
-Select a range along X, Y or Z, or isolate a single layer to examine rooms and device placement.
-
-| X · across the hull | Y · deck by deck | Z · along the ship |
-|:---:|:---:|:---:|
-| ![X layers](assets/layers-x.gif) | ![Y layers](assets/layers-y.gif) | ![Z layers](assets/layers-z.gif) |
-
-## Devices up close
-
-Toggle the hull, weapons and thrusters independently. Move the camera closer to components or explore in free flight.
-
-![Toggling hull, weapons and thrusters while moving the camera closer](assets/components-camera.gif)
-
-## Building tools
-
-- Game-derived shapes, materials, paint and decals.
-- Selection, copying, 90° rotation, symmetry, undo and redo.
-- Component list, mass, power, CPU and estimated Factory resources.
-- Projects up to 1,000,000 blocks, with progress and cancellation when opening large blueprints.
-- Fast, realistic and cinematic rendering.
-
-## Devices and signals
-
-Select a lamp or door in a device group and open **Signal Logic**. Choose its function, click **Pick transmitter…**, then select a lever or sensor. For more complex connections, use control-panel switches and 13 types of logic circuits.
-
-## From blueprint to game
-
-1. Open a personal `.epb` or a Workshop subscription from **Library**. Workshop edits use a copy.
-2. Use **Save project** to choose a local folder, or **To game** to add the blueprint to your personal Empyrion library with a bow-quarter portrait.
-3. In your world, open the **F2 blueprint library**, select the ship and add it to the Factory. Supply the required resources, start production and place the finished ship.
-
-The editor estimates the resources. The game shows the final requirements. The export window also includes the steps for publishing to the Workshop.
-
-## Photo and video
-
-Adjust lighting and exposure, and export PNG up to 4K. The dedicated MP4 workspace combines smooth manual flight, orbits or a sequence of shots with construction reveals along X, Y or Z.
-
-![YAMATO Real Size: PNG exported by EGS-BBS](assets/photo-yamato.png)
-
-<details>
-<summary>Filming settings</summary>
-
-![Frame and camera settings](assets/filming.png)
-
-</details>
-
-## Setup and updates
-
-1. Get the ZIP using **Download**, extract it in full and run **EGS-BBS.exe**.
-2. Choose your language. The app locates the game and Workshop through Steam. If detection fails, choose the folder in File Explorer.
-3. Let the app prepare the models. Two empty-cache runs on the test PC took **26 and 31 seconds**, including photo-mode materials. Subsequent launches reuse the cache.
-4. In Welcome, start a project, open a library blueprint or run the optional 30-second PC check to estimate project sizes at 30 FPS.
-
-For an update, close the previous version and extract the new one to a separate folder. When upgrading from beta.1, save important designs as `.epb` using **To game** first.
-
-The release includes `SHA256SUMS.txt` and `SECURITY-REPORT.md`. The current beta is unsigned.
-
-<details>
-<summary>Keyboard shortcuts</summary>
-
-| Action | Shortcut |
-|---|---|
-| Select / build / delete tool | V / B / E |
-| Delete selection / paint / sample | Del / P / I |
-| Rotate / symmetry | R / M |
-| Copy / paste / undo / redo | Ctrl+C / Ctrl+V / Ctrl+Z / Shift+Z |
-| Flight / exit | F / F or Esc |
-| Move / height | WASD / Q,E |
-| Flight speed | Wheel; Shift ×4; Ctrl+Shift ×16; Alt ×¼ |
-| Fit ship / hide panels | Home / Tab |
-
-Right-click opens block/material options, or the palette when painting.
-
-</details>
-
 ## Roadmap
 
-![Planned: thrust and G-force calculations; airtightness and centre of mass; building tools; AI; signals and logic; optimisation; video; community-reported fixes](assets/roadmap-en.svg)
+![Shipped in 0.7.0 and next in development: hull integrity, flight calibration, AI, large projects, recording and community fixes](assets/roadmap-en.svg)
 
 ## Support development
 

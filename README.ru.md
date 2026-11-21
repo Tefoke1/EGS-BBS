@@ -70,7 +70,7 @@
 
 Автор — **AlienLorem (Tefoke1)**. Если редактор пригодился, можно поддержать разработку.
 
-<a href="https://boosty.to/alienlorem"><img src="assets/boosty-ru.svg" width="270" alt="Поддержать автора на Boosty"></a>
+<a href="https://boosty.to/alienlorem/donate"><img src="assets/boosty-ru.svg" width="270" alt="Поддержать автора на Boosty"></a>
 
 На снимках использованы работы авторов:
 

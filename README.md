@@ -70,7 +70,7 @@ You can use the editor for free, change or reuse its original code and share you
 
 Created by **AlienLorem (Tefoke1)**. If the editor helped with your build, you can support development.
 
-<a href="[https://boosty.to/alienlorem](https://boosty.to/alienlorem/donate)"><img src="assets/boosty-en.svg" width="270" alt="Support the author on Boosty"></a>
+<a href="https://boosty.to/alienlorem/donate"><img src="assets/boosty-en.svg" width="270" alt="Support the author on Boosty"></a>
 
 Blueprints featured in the screenshots:
 

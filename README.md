@@ -18,6 +18,10 @@
 
 Open an Empyrion or Reforged Eden 2 blueprint, inspect its decks, rebuild it in first person and send your version to the in-game Factory. EGS-BBS runs locally on Windows.
 
+**Author · [AlienLorem (Tefoke1)](https://github.com/Tefoke1)**
+
+EGS-BBS is free to use. Reusing the author’s EGS-BBS code in another project or distributing a modified version of the application requires the author’s permission. [Third-party licenses](docs/DEPENDENCIES.md)
+
 ![EGS-BBS editor: Thanatos](assets/ship-070-en.webp)
 
 ## Layer inspection

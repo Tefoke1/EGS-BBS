@@ -6,7 +6,7 @@ EGS-BBS runs locally on Windows. Electron 45.3.3 hosts the editor, three.js r170
 
 The editor talks to a local service on `127.0.0.1`. Its renderer uses context isolation and a sandbox. The desktop bridge opens the folder picker, saves an EPB to a user-selected location and releases temporary import memory. Regular editing stays on the PC. If you choose AI generation, the selected CLI provider receives the prompt and build catalog.
 
-Download the ZIP and `SHA256SUMS.txt` from the same release. Run `Get-FileHash .\EGS-BBS-0.7.0-windows-x64.zip -Algorithm SHA256` in PowerShell and compare the full hash. The EXE is unsigned. The release report lists the checks performed and VirusTotal lookup links. [Release and checks](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0)
+Download the ZIP and `SHA256SUMS.txt` from the same release. Run `Get-FileHash .\EGS-BBS-0.8.0-windows-x64.zip -Algorithm SHA256` in PowerShell and compare the full hash. The EXE is unsigned. The release report lists the checks performed and VirusTotal lookup links. [Release and checks](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.8.0)
 
 ## Русский
 
@@ -14,4 +14,4 @@ EGS-BBS работает локально в Windows. Интерфейс пос�
 
 Редактор связывается с локальной службой по адресу `127.0.0.1`. Включены изоляция контекста и песочница. Настольный интерфейс предоставляет выбор папки, сохранение EPB по указанному пользователем пути и освобождение временной памяти после импорта. Обычное редактирование выполняется на ПК. При выборе генерации через ИИ запрос и каталог блоков передаются выбранному CLI-провайдеру.
 
-Скачайте ZIP и `SHA256SUMS.txt` из одного выпуска. Команда PowerShell выше вычислит SHA-256 архива. Сравните его целиком со значением в файле. EXE без цифровой подписи. В отчёте выпуска перечислены проведённые проверки и ссылки для поиска по хэшу в VirusTotal. [Выпуск и результаты проверок](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.7.0)
+Скачайте ZIP и `SHA256SUMS.txt` из одного выпуска. Команда PowerShell выше вычислит SHA-256 архива. Сравните его целиком со значением в файле. EXE без цифровой подписи. В отчёте выпуска перечислены проведённые проверки и ссылки для поиска по хэшу в VirusTotal. [Выпуск и результаты проверок](https://github.com/Tefoke1/EGS-BBS/releases/tag/v0.8.0)

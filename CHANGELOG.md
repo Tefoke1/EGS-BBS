@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.0 · 2026-11-21
+
+Game version: Empyrion 1.20.1 (build 5232) · Reforged Eden 2
+
+- Choose one shared folder for models, recovery saves, photos and videos. Manage it from the storage menu.
+- Open blueprints with up to 2,000,000 blocks. Inspect block airtightness, display the centre of mass or hide the realistic builder floor.
+- Locate a signal device in 3D from its ship map. Assign groups directly to the eight quick-access buttons.
+- Three space backgrounds and a capture gallery. During manual filming press F to fly, Space to ascend and Ctrl to descend. Use the wheel to adjust sliders.
+- Faster camera movement and Full HD MP4 export on megaprojects. The author permits code reuse, changes and redistribution without separate permission.
+
 ## 0.7.0 · 2026-11-21
 
 Game version: Empyrion 1.20.1 (build 5232) · Reforged Eden 2
